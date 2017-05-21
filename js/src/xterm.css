@@ -1,0 +1,21 @@
+.terminal,
+.xterm-viewport {
+    height: 100% !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+.xterm-overlay {
+    border-radius: 15px;
+    font-size: xx-large;
+    color: black;
+    background: white;
+    opacity: 0.75;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    transition: opacity 180ms ease-in;
+}
